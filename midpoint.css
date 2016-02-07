@@ -1,0 +1,256 @@
+@charset "UTF-8";
+body {
+	background-color: #339999;
+}
+#wrapper {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	border-radius: 10px;
+}
+header {
+	background-color: #333399;
+	border-radius: 10px;
+}
+.logo {
+	width: 960px;
+	height: 120px;
+	background-image: url(logo.gif);
+	background-repeat: no-repeat;
+}
+header h1 {
+	color: #FFB383;
+	text-align: center;
+	font-size: 36pt;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-weight: bold;
+	float: right;
+	padding-right: 60px;
+}
+header h2 {
+	color: #FFB383;
+	text-align: center;
+	font-size: 18pt;
+	padding-top: 10px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	float: right;
+	clear: both;
+	padding-right: 120px;
+}
+nav ul {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+nav ul  li{
+	list-style-type: none;
+	text-decoration: none;
+	color: #000000;
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	width: 90px;
+	height: 20px;
+	background-image: url(button.gif);
+	font-weight: bold;
+	background-repeat: no-repeat;
+}
+aside {
+	width: 240px;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 0px;
+	margin-top: -50px;
+	background-image: url(sidebar.gif);
+	height: 690px;
+	background-repeat: no-repeat;
+	border-top-right-radius: 120px;
+	border-bottom-left-radius: 120px;
+}
+aside h3 {
+	text-align: left;
+	padding-left: 15px;
+	padding-bottom: 0px;
+	padding-top: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+aside ul {
+	text-align: left;
+	padding-left: 15px;
+}
+aside ul li {
+	list-style-type: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+aside a:hover {
+	text-decoration: underline;
+}
+article {
+	width: 720px;
+	float: left;
+}
+.title h2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.title h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.title h4 {
+	padding-top: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	color: #666666;
+	font-weight: lighter;
+}
+footer  {
+	width: 960px;
+	display: block;
+}
+footer h6{
+	text-align: right;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+.info {
+}
+.featured {
+	width: 480px;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+	height: 360px;
+}
+.featured:hover {
+	background-image: url(hover.gif);
+	margin-top: 0px;
+	margin-right: 60px;
+	margin-bottom: 0px;
+	margin-left: 60px;
+	width: 360px;
+	height: 360px;
+	background-repeat: no-repeat;
+	background-size: auto
+%;
+	background-origin: content-box;
+	background-size: auto auto;
+	padding-top: 0px;
+	border-radius: 10px;
+}
+.picture {
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 320px;
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: -40px;
+}
+.title {
+	height: 100px;
+}
+h1, h2 , h3, h4, h5, h6 {
+	text-align: center;
+	padding-top: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 5px;
+	font-family: 'Averia Libre', cursive;
+	font-weight: normal;
+}
+h1 {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+h2 {
+	font-weight: bold;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+h3 {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+h4 {
+	font-weight: lighter;
+	padding-bottom: 0px;
+	padding-top: 10px;
+}
+p {
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+a {
+	color: #092385;
+}
+li a {
+	text-decoration: none;
+	color: #000000;
+	font-family: 'Averia Libre', cursive;
+}
+.comments {
+	width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 480px;
+}
+a.button {
+	width: 90px;
+	height: 20px;
+	border-radius: 10px;
+	background-image: url(button.gif);
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: 'Averia Libre', cursive;
+	background-repeat: no-repeat;
+	color: #000000;
+	font-weight: bold;
+	float: right;
+}
+textarea {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-radius: 10px;
+}
